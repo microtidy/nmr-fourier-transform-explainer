@@ -11,7 +11,7 @@ authors:
 version: "2.1"
 date-released: "2026-10-04"
 license: MIT
-repository-code: "https://github.com/<你的用户名>/<仓库名>"
+repository-code: "https://github.com/microtidy/nmr-fourier-transform-explainer"
 keywords:
   - 傅里叶变换
   - 核磁共振

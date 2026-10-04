@@ -111,16 +111,16 @@ Octave 版详细安装与调试说明见 [`GNU Octave/README_Octave.md`](GNU%20O
 
 ## 五、下载地址（论文引用用）
 
-发布后本项目的公开地址为：
+本项目的公开地址为：
 
 ```
-https://github.com/<你的用户名>/<仓库名>
+https://github.com/microtidy/nmr-fourier-transform-explainer
 ```
 
 建议同时创建一个 **Release**（如 `v2.1`），其下载链接形如：
 
 ```
-https://github.com/<你的用户名>/<仓库名>/releases/tag/v2.1
+https://github.com/microtidy/nmr-fourier-transform-explainer/releases/tag/v2.1
 ```
 
 论文中可写成：*本软件开源发布于 GitHub：<仓库地址>（版本号 v2.1）。*
