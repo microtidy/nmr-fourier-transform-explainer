@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "如果您在教学或研究中使用本软件，请引用下列信息。"
+title: "NMR 傅里叶变换原理讲解器（MATLAB / GNU Octave 版）"
+abstract: >-
+  一套面向核磁共振与信号处理教学的可视化演示软件，包含 11 个讲解步骤、
+  3 段动画与 1 个采样混叠交互演示，提供 MATLAB 与 GNU Octave 两套实现。
+authors:
+  - family-names: "Qiu"
+    given-names: "Ying-Kun"
+    email: "qyk@xmu.edu.cn"
+version: "2.1"
+date-released: "2026-10-04"
+license: MIT
+repository-code: "https://github.com/<你的用户名>/<仓库名>"
+keywords:
+  - 傅里叶变换
+  - 核磁共振
+  - 采样定理
+  - 教学软件
+  - GNU Octave

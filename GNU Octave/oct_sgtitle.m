@@ -1,0 +1,13 @@
+function h = oct_sgtitle(fig, pos, txt, fsize)
+%OCT_SGTITLE 在 figure 指定区域绘制居中总标题（替代 MATLAB 的 sgtitle）
+%   OCT_SGTITLE(FIG, POS, TXT[, FSIZE])，POS 为归一化 [x y w h]。
+  if nargin < 4 || isempty(fsize)
+    fsize = 14;
+  end
+  ax = axes('Parent', fig, 'Units', 'normalized', 'Position', pos, ...
+            'Color', 'none', 'XColor', 'none', 'YColor', 'none', ...
+            'XTick', [], 'YTick', [], 'Box', 'off', 'Tag', 'oct_sgtitle');
+  h = text(ax, 0.5, 0.5, txt, 'HorizontalAlignment', 'center', ...
+           'VerticalAlignment', 'middle', 'FontSize', fsize, ...
+           'FontWeight', 'bold', 'Interpreter', 'none');
+end
